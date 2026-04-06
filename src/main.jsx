@@ -239,7 +239,7 @@ function Slide4() {
       </div>
 
       <div className="mt-8 p-6 rounded-xl text-center shadow-md font-bold text-2xl md:text-3xl" style={{ backgroundColor: colors.primaryGreen, color: '#FFF' }}>
-        Key Line: Cash gives safety. Assets create freedom.
+        Cash gives safety. Assets create freedom.
       </div>
     </div>
   );
@@ -388,7 +388,6 @@ function Slide8() {
   return (
     <div className="p-8 md:p-10 rounded-2xl shadow-xl w-full max-w-5xl" style={{ backgroundColor: colors.cardBg }}>
       <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center" style={{ color: colors.charcoal }}>Main Types of Assets</h2>
-      <p className="text-center text-lg md:text-xl text-gray-600 mb-8 italic">Keep it simple and global:</p>
       
       <div className="grid md:grid-cols-2 gap-6">
         {assetTypes.map((asset, idx) => (
